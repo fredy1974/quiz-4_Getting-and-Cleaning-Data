@@ -1,0 +1,57 @@
+# A tibble: 180 x 88
+# Groups:   activity [?]
+   activity subject `tBodyAcc-mean(~ `tBodyAcc-mean(~ `tBodyAcc-mean(~
+   <fct>      <int>            <dbl>            <dbl>            <dbl>
+ 1 WALKING        1            0.277          -0.0174           -0.111
+ 2 WALKING        2            0.276          -0.0186           -0.106
+ 3 WALKING        3            0.276          -0.0172           -0.113
+ 4 WALKING        4            0.279          -0.0148           -0.111
+ 5 WALKING        5            0.278          -0.0173           -0.108
+ 6 WALKING        6            0.284          -0.0169           -0.110
+ 7 WALKING        7            0.276          -0.0187           -0.111
+ 8 WALKING        8            0.275          -0.0187           -0.107
+ 9 WALKING        9            0.279          -0.0181           -0.111
+10 WALKING       10            0.279          -0.0170           -0.109
+# ... with 170 more rows, and 83 more variables: `tBodyAcc-std()-X` <dbl>,
+#   `tBodyAcc-std()-Y` <dbl>, `tBodyAcc-std()-Z` <dbl>,
+#   `tGravityAcc-mean()-X` <dbl>, `tGravityAcc-mean()-Y` <dbl>,
+#   `tGravityAcc-mean()-Z` <dbl>, `tGravityAcc-std()-X` <dbl>,
+#   `tGravityAcc-std()-Y` <dbl>, `tGravityAcc-std()-Z` <dbl>,
+#   `tBodyAccJerk-mean()-X` <dbl>, `tBodyAccJerk-mean()-Y` <dbl>,
+#   `tBodyAccJerk-mean()-Z` <dbl>, `tBodyAccJerk-std()-X` <dbl>,
+#   `tBodyAccJerk-std()-Y` <dbl>, `tBodyAccJerk-std()-Z` <dbl>,
+#   `tBodyGyro-mean()-X` <dbl>, `tBodyGyro-mean()-Y` <dbl>,
+#   `tBodyGyro-mean()-Z` <dbl>, `tBodyGyro-std()-X` <dbl>,
+#   `tBodyGyro-std()-Y` <dbl>, `tBodyGyro-std()-Z` <dbl>,
+#   `tBodyGyroJerk-mean()-X` <dbl>, `tBodyGyroJerk-mean()-Y` <dbl>,
+#   `tBodyGyroJerk-mean()-Z` <dbl>, `tBodyGyroJerk-std()-X` <dbl>,
+#   `tBodyGyroJerk-std()-Y` <dbl>, `tBodyGyroJerk-std()-Z` <dbl>,
+#   `tBodyAccMag-mean()` <dbl>, `tBodyAccMag-std()` <dbl>,
+#   `tGravityAccMag-mean()` <dbl>, `tGravityAccMag-std()` <dbl>,
+#   `tBodyAccJerkMag-mean()` <dbl>, `tBodyAccJerkMag-std()` <dbl>,
+#   `tBodyGyroMag-mean()` <dbl>, `tBodyGyroMag-std()` <dbl>,
+#   `tBodyGyroJerkMag-mean()` <dbl>, `tBodyGyroJerkMag-std()` <dbl>,
+#   `fBodyAcc-mean()-X` <dbl>, `fBodyAcc-mean()-Y` <dbl>, `fBodyAcc-mean()-Z` <dbl>,
+#   `fBodyAcc-std()-X` <dbl>, `fBodyAcc-std()-Y` <dbl>, `fBodyAcc-std()-Z` <dbl>,
+#   `fBodyAcc-meanFreq()-X` <dbl>, `fBodyAcc-meanFreq()-Y` <dbl>,
+#   `fBodyAcc-meanFreq()-Z` <dbl>, `fBodyAccJerk-mean()-X` <dbl>,
+#   `fBodyAccJerk-mean()-Y` <dbl>, `fBodyAccJerk-mean()-Z` <dbl>,
+#   `fBodyAccJerk-std()-X` <dbl>, `fBodyAccJerk-std()-Y` <dbl>,
+#   `fBodyAccJerk-std()-Z` <dbl>, `fBodyAccJerk-meanFreq()-X` <dbl>,
+#   `fBodyAccJerk-meanFreq()-Y` <dbl>, `fBodyAccJerk-meanFreq()-Z` <dbl>,
+#   `fBodyGyro-mean()-X` <dbl>, `fBodyGyro-mean()-Y` <dbl>,
+#   `fBodyGyro-mean()-Z` <dbl>, `fBodyGyro-std()-X` <dbl>,
+#   `fBodyGyro-std()-Y` <dbl>, `fBodyGyro-std()-Z` <dbl>,
+#   `fBodyGyro-meanFreq()-X` <dbl>, `fBodyGyro-meanFreq()-Y` <dbl>,
+#   `fBodyGyro-meanFreq()-Z` <dbl>, `fBodyAccMag-mean()` <dbl>,
+#   `fBodyAccMag-std()` <dbl>, `fBodyAccMag-meanFreq()` <dbl>,
+#   `fBodyBodyAccJerkMag-mean()` <dbl>, `fBodyBodyAccJerkMag-std()` <dbl>,
+#   `fBodyBodyAccJerkMag-meanFreq()` <dbl>, `fBodyBodyGyroMag-mean()` <dbl>,
+#   `fBodyBodyGyroMag-std()` <dbl>, `fBodyBodyGyroMag-meanFreq()` <dbl>,
+#   `fBodyBodyGyroJerkMag-mean()` <dbl>, `fBodyBodyGyroJerkMag-std()` <dbl>,
+#   `fBodyBodyGyroJerkMag-meanFreq()` <dbl>, `angle(tBodyAccMean,gravity)` <dbl>,
+#   `angle(tBodyAccJerkMean),gravityMean)` <dbl>,
+#   `angle(tBodyGyroMean,gravityMean)` <dbl>,
+#   `angle(tBodyGyroJerkMean,gravityMean)` <dbl>, `angle(X,gravityMean)` <dbl>,
+#   `angle(Y,gravityMean)` <dbl>, `angle(Z,gravityMean)` <dbl>
+> 
