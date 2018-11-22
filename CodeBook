@@ -1,0 +1,34 @@
+
+#1 Unzip the data file: 
+
+'features.txt': List of all features
+
+'activity_labels.txt': List of class labels and their activity name.
+
+'train/X_train.txt': Training set.
+
+'train/y_train.txt': Training labels.
+
+'train/subject_train.txt': ID's of subjects in the training data
+
+'test/X_test.txt': Test set.
+
+'test/y_test.txt': Test labels.
+
+'test/subject_test.txt': ID's of subjects in the training data
+
+#2 Run the codes in run_analysis.R script that merges data from all the raw data txt files to produce a tidy data txt file
+
+Consequently the appropriate "activity_id"'s and "subject_id"'s are appended to the "test" and the "training" data, which are then combined into one single data frame
+
+Using the "grep" function, all the columns with mean() and std() values are extracted and then a new data frame, including only the "activity_id", the "subject_id" and the mean() and std() columns, is created
+
+Using the "select" function, descriptive activity names are merged with the mean/std values dataset, to get one dataset with descriptive activity names
+
+'group' function is being used to find the average value for each of the variables and each subject
+
+Whereas, two data files are created, 'Final_data_1' which contains the tidy data with the mean/std along with their descriptive activities
+
+While the other file 'Final_data_1' contains the average of each variable for each activity and for each subject
+
+Both the final files are created by 'write.table' function
